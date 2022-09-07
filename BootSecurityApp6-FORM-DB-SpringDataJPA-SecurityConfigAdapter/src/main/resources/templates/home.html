@@ -1,0 +1,22 @@
+<html xmlns:th="http://www.thymeleaf.org" />
+
+
+<h1 style="color:red;text-align:center">Welcome to SBI Bank Home Page</h1>
+
+<br>
+<h3><a th:href="@{/user/register}">Register User</a></h3>
+
+<br>
+<h3><a th:href="@{/bank/offers}">Show Offers</a></h3>
+<br>
+
+<h3><a th:href="@{/bank/approveLoan}">Approve Loan</a></h3><br>
+
+<!--
+<h3><a th:href="@{/bank/balance}">Check Balance</a></h3><br>
+--> 
+ 
+ 
+ <form th:action="@{/bank/balance}" method="post">
+ 			<input type="submit" value="show balance">
+ </form>
