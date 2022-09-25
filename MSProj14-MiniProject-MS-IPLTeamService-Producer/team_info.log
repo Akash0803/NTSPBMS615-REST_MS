@@ -1,0 +1,123 @@
+2022-09-21 00:01:13.713  INFO 13708 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-21 00:06:04.662  INFO 13708 --- [http-nio-8081-exec-2] com.nt.service.IPLTeamMgmtServiceImpl    : IPLTeamMgmtServiceImpl :: Request Came For Team Saveing
+2022-09-21 00:06:05.558  INFO 13708 --- [http-nio-8081-exec-2] com.nt.rest.IPLTeamOperationController   : IPLTeamOperationController :: Request Came For Team Registration
+2022-09-21 00:06:13.891  INFO 13708 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-21 00:08:11.723  INFO 13708 --- [http-nio-8081-exec-1] com.nt.service.IPLTeamMgmtServiceImpl    : IPLTeamMgmtServiceImpl :: Request Came For Team Saveing
+2022-09-21 00:08:11.730  INFO 13708 --- [http-nio-8081-exec-1] com.nt.rest.IPLTeamOperationController   : IPLTeamOperationController :: Request Came For Team Registration
+2022-09-21 00:15:33.507  WARN 13708 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m27s450ms827µs600ns).
+2022-09-21 19:24:26.044  WARN 13708 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19h9m15s377ms694µs900ns).
+2022-09-21 19:25:04.994  WARN 13708 --- [http-nio-8081-exec-2] o.s.b.a.health.HealthEndpointSupport     : Health contributor org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator (db) took 19559ms to respond
+2022-09-21 19:25:36.037  INFO 13708 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-21 19:27:10.067  WARN 13708 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m44s18ms110µs500ns).
+2022-09-21 19:27:14.682  WARN 13708 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=TEAM-SERVICE, managementUrl=http://DESKTOP-AEUBR54:8081/actuator, healthUrl=http://DESKTOP-AEUBR54:8081/actuator/health, serviceUrl=http://DESKTOP-AEUBR54:8081/) at spring-boot-admin ([http://localhost:9999/instances]): I/O error on POST request for "http://localhost:9999/instances": localhost:9999 failed to respond; nested exception is org.apache.http.NoHttpResponseException: localhost:9999 failed to respond. Further attempts are logged on DEBUG level
+2022-09-21 19:30:36.070  INFO 13708 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-21 19:31:20.338  INFO 13708 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-09-21 19:31:20.673  INFO 13708 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application TEAM-SERVICE with eureka with status DOWN
+2022-09-21 19:31:20.673  INFO 13708 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1663768880673, current=DOWN, previous=UP]
+2022-09-21 19:31:20.673  INFO 13708 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TEAM-SERVICE/TEAM-SERVICE:006806afaf96faccb25406835b32afda: registering service...
+2022-09-21 19:31:20.739  INFO 13708 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TEAM-SERVICE/TEAM-SERVICE:006806afaf96faccb25406835b32afda - registration status: 204
+2022-09-21 19:31:21.055  INFO 13708 --- [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-21 19:31:21.110  INFO 13708 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-09-21 19:31:21.797  INFO 13708 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-21 19:31:21.958  INFO 13708 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-21 19:31:21.979  INFO 13708 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-09-21 19:31:22.072  INFO 13708 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-09-21 20:35:02.179  INFO 13416 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2022-09-21 20:35:04.056  INFO 13416 --- [main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=TEAM-SERVICE, profiles=[default], label=null, version=2c7086d660d31367a6d0e87d2c783ad3125aedad, state=null
+2022-09-21 20:35:04.057  INFO 13416 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://gitlab.com/Akash0803/csminiproj14.git/file:C:\Users\AAkash\AppData\Local\Temp\config-repo-14165846831421698572\application.properties'}]
+2022-09-21 20:35:04.101  INFO 13416 --- [main] ojectMsIplTeamServiceProducerApplication : No active profile set, falling back to 1 default profile: "default"
+2022-09-21 20:35:04.125  INFO 13416 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2022-09-21 20:35:04.125  INFO 13416 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=TEAM-SERVICE, profiles=[default], label=null, version=2c7086d660d31367a6d0e87d2c783ad3125aedad, state=null
+2022-09-21 20:35:06.255  INFO 13416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-21 20:35:06.731  INFO 13416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 455 ms. Found 1 JPA repository interfaces.
+2022-09-21 20:35:07.167  INFO 13416 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=cadcc278-7ce2-3595-bd3e-d624b687323a
+2022-09-21 20:35:07.925  INFO 13416 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-09-21 20:35:07.940  INFO 13416 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-21 20:35:07.940  INFO 13416 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-21 20:35:08.312  INFO 13416 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-21 20:35:08.313  INFO 13416 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4187 ms
+2022-09-21 20:35:09.341  INFO 13416 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-21 20:35:09.662  INFO 13416 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-21 20:35:16.508  INFO 13416 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-21 20:35:17.694  INFO 13416 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-21 20:35:17.733  WARN 13416 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-09-21 20:35:24.781  INFO 13416 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-21 20:35:25.162  INFO 13416 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-09-21 20:35:49.419  INFO 13416 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-21 20:35:49.486  INFO 13416 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-21 20:35:50.800  WARN 13416 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-21 20:35:54.428  INFO 13416 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-09-21 20:35:54.607  WARN 13416 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-09-21 20:35:54.623  INFO 13416 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2022-09-21 20:35:55.006  INFO 13416 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-09-21 20:35:55.378  INFO 13416 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-09-21 20:35:55.406  INFO 13416 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-21 20:35:55.571  INFO 13416 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-09-21 20:35:55.572  INFO 13416 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-09-21 20:35:55.572  INFO 13416 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-09-21 20:35:55.572  INFO 13416 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-09-21 20:35:55.572  INFO 13416 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-09-21 20:35:55.573  INFO 13416 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-09-21 20:35:55.573  INFO 13416 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-09-21 20:35:56.324  INFO 13416 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-09-21 20:35:56.339  INFO 13416 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-09-21 20:35:56.354  INFO 13416 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-09-21 20:35:56.415  INFO 13416 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1663772756412 with initial instances count: 0
+2022-09-21 20:35:56.420  INFO 13416 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application TEAM-SERVICE with eureka with status UP
+2022-09-21 20:35:56.422  INFO 13416 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1663772756422, current=UP, previous=STARTING]
+2022-09-21 20:35:56.426  INFO 13416 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TEAM-SERVICE/TEAM-SERVICE:f53f11c48c7ee4bb5fb5a7130f01318b: registering service...
+2022-09-21 20:35:56.637  INFO 13416 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-09-21 20:35:56.641  INFO 13416 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2022-09-21 20:35:57.151  INFO 13416 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TEAM-SERVICE/TEAM-SERVICE:f53f11c48c7ee4bb5fb5a7130f01318b - registration status: 204
+2022-09-21 20:35:57.184  INFO 13416 --- [main] ojectMsIplTeamServiceProducerApplication : Started MsProj14MiniProjectMsIplTeamServiceProducerApplication in 65.185 seconds (JVM running for 68.504)
+2022-09-21 20:35:58.648  INFO 13416 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as 7f74abd3e914
+2022-09-21 20:35:59.183  INFO 13416 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-21 20:35:59.184  INFO 13416 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-21 20:35:59.188  INFO 13416 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-09-21 20:36:26.349  INFO 13416 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-09-21 20:36:26.350  INFO 13416 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-09-21 20:36:26.350  INFO 13416 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-09-21 20:36:26.350  INFO 13416 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-09-21 20:36:26.350  INFO 13416 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-09-21 20:36:26.351  INFO 13416 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2022-09-21 20:36:26.351  INFO 13416 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-09-21 20:36:26.378  INFO 13416 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-09-21 20:40:17.801  INFO 13416 --- [http-nio-8081-exec-9] com.nt.service.IPLTeamMgmtServiceImpl    : IPLTeamMgmtServiceImpl :: Request Came For Showing All Teams 
+2022-09-21 20:40:18.730  INFO 13416 --- [http-nio-8081-exec-9] com.nt.rest.IPLTeamOperationController   : IPLTeamOperationController :: Request Came For Showing All Teams
+2022-09-21 20:40:55.588  INFO 13416 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-21 20:45:55.590  INFO 13416 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-21 20:48:54.928  INFO 13416 --- [http-nio-8081-exec-2] com.nt.service.IPLTeamMgmtServiceImpl    : IPLTeamMgmtServiceImpl :: Request Came For Finfing Team by ID
+2022-09-21 20:48:54.976  INFO 13416 --- [http-nio-8081-exec-2] com.nt.rest.IPLTeamOperationController   : IPLTeamOperationController :: Request Came For Finding Team By ID
+2022-09-21 20:50:55.593  INFO 13416 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-21 20:55:55.604  INFO 13416 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-21 21:00:55.613  INFO 13416 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-21 21:05:55.614  INFO 13416 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-21 21:10:55.616  INFO 13416 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-21 21:15:55.625  INFO 13416 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-21 21:20:55.641  INFO 13416 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-21 21:23:06.528  INFO 13416 --- [http-nio-8081-exec-7] com.nt.service.IPLTeamMgmtServiceImpl    : IPLTeamMgmtServiceImpl :: Request Came For Finfing Team by ID
+2022-09-21 21:23:06.534  INFO 13416 --- [http-nio-8081-exec-7] com.nt.rest.IPLTeamOperationController   : IPLTeamOperationController :: Request Came For Finding Team By ID
+2022-09-21 21:24:12.656  INFO 13416 --- [http-nio-8081-exec-1] com.nt.service.IPLTeamMgmtServiceImpl    : IPLTeamMgmtServiceImpl :: Request Came For Finfing Team by ID
+2022-09-21 21:24:12.661  INFO 13416 --- [http-nio-8081-exec-1] com.nt.rest.IPLTeamOperationController   : IPLTeamOperationController :: Request Came For Finding Team By ID
+2022-09-21 21:25:55.654  INFO 13416 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-21 21:30:55.657  INFO 13416 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-21 21:35:55.659  INFO 13416 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-21 21:40:55.669  INFO 13416 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-21 21:45:55.683  INFO 13416 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-21 21:46:35.804  INFO 13416 --- [http-nio-8081-exec-5] com.nt.service.IPLTeamMgmtServiceImpl    : IPLTeamMgmtServiceImpl :: Request Came For Finfing Team by ID
+2022-09-21 21:46:35.816  INFO 13416 --- [http-nio-8081-exec-5] com.nt.rest.IPLTeamOperationController   : IPLTeamOperationController :: Request Came For Finding Team By ID
+2022-09-21 21:47:16.396  INFO 13416 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-09-21 21:47:16.587  INFO 13416 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-09-21 21:47:16.593  INFO 13416 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application TEAM-SERVICE with eureka with status DOWN
+2022-09-21 21:47:16.594  INFO 13416 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1663777036594, current=DOWN, previous=UP]
+2022-09-21 21:47:16.594  INFO 13416 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TEAM-SERVICE/TEAM-SERVICE:f53f11c48c7ee4bb5fb5a7130f01318b: registering service...
+2022-09-21 21:47:16.691  INFO 13416 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TEAM-SERVICE/TEAM-SERVICE:f53f11c48c7ee4bb5fb5a7130f01318b - registration status: 204
+2022-09-21 21:47:16.814  INFO 13416 --- [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-21 21:47:16.835  INFO 13416 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-09-21 21:47:17.184  INFO 13416 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-21 21:47:17.355  INFO 13416 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-21 21:47:17.461  INFO 13416 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-09-21 21:47:17.569  INFO 13416 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-09-21 21:47:20.598  INFO 13416 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-09-21 21:47:20.738  INFO 13416 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TEAM-SERVICE/TEAM-SERVICE:f53f11c48c7ee4bb5fb5a7130f01318b - deregister  status: 200
+2022-09-21 21:47:20.847  INFO 13416 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
